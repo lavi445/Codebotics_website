@@ -1,0 +1,25 @@
+Payment icon in homepage : 
+(HTML : <iconify-icon icon="mdi:account-payment-outline" style="color: white;"></iconify-icon>)
+(Make sure you import IconifyIcon web component:
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>)
+
+
+Home icon in homepage :
+(HTML : <iconify-icon icon="ion:home" style="color: white;"></iconify-icon>)
+(Make sure you import IconifyIcon web component:
+
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>)
+
+
+
+Courses icon in homepage:
+(HTML : <iconify-icon icon="streamline:quality-education-solid" style="color: white;"></iconify-icon>)
+(Make sure you import IconifyIcon web component:
+
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>)
+
+Settings icon in homepage:
+(HTML : <iconify-icon icon="mdi:settings" style="color: white;"></iconify-icon>)
+(ake sure you import IconifyIcon web component:
+
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>)
