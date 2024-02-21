@@ -1,64 +1,57 @@
-body{
-    margin:0px;
-    padding:0px;
+body {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-.plans{
+
+.plans {
     display: flex;
     justify-content: space-between;
-    margin-left:80px;
-    margin-right:80px;
+    margin-left: 5%; /* Adjusted for responsiveness */
+    margin-right: 5%; /* Adjusted for responsiveness */
 }
-.pn{
+
+.pn {
     text-align: center;
 }
-.plandes{
+
+.plandes {
     background-color: white;
     display: inline-block;
-    width:250px;
-    height:330px;
-    padding:20px;
-    border:2px solid black;
+    width: 30%; /* Adjusted for responsiveness */
+    max-width: 300px; /* Added max-width for better responsiveness */
+    height: auto; /* Adjusted for content height */
+    padding: 4%; /* Adjusted for responsiveness */
+    border: 2px solid black;
+    position: relative; /* Added for positioning */
+    margin-bottom: 30px; /* Added for spacing between items */
+}
 
-}
-.p1{
-    background-color: rgba(59,30,8,1);
-    display:inline-block;
-    padding:25px;
-    border-radius: 100%;
-    color:white;
+.p1,
+.p2,
+.p3 {
+    background-color: rgba(59, 30, 8, 1);
+    display: inline-block;
+    padding: 4%; /* Adjusted for responsiveness */
+    border-radius: 50%; /* Changed to make it circular */
+    color: white;
     position: absolute;
-    left:15%;
-    top:10%
+    left: 50%; /* Centering the circles horizontally */
+    transform: translateX(-50%); /* Centering the circles horizontally */
+    top: -20%; /* Adjusted position */
 }
-.p2{
-    background-color: #3b1e08;
-    display:inline-block;
-    padding:25px;
-    border-radius: 100%;
-    color:white;
-    position: absolute;
-    left:48%;
-    top:10%
-}
-.p3{
-    background-color: rgba(59,30,8,1);
-    display:inline-block;
-    padding:25px;
-    border-radius: 100%;
-    color:white;
-    position: absolute;
-    left:82%;
-    top:10%
-}
-.buy{
-    background-color: rgba(59,30,8,1);
+
+.p1 { top: -15%; } /* Adjusted position */
+.p2 { top: -15%; } /* Adjusted position */
+.p3 { top: -15%; } /* Adjusted position */
+
+.buy {
+    background-color: rgba(59, 30, 8, 1);
     text-align: center;
-    padding: 20px;
+    padding: 4% 8%; /* Adjusted for responsiveness */
     display: inline-block;
     border-radius: 50px;
-    color:white;
+    color: white;
     position: relative;
-    top:-50px;
-    left:30%;
+    margin-top: -10%; /* Adjusted position */
 }
