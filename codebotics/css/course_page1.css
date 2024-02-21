@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.navbar{
+    display: flex;
+}
+
+.backbutton{
+    margin-left: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: none;
+}
+
+.backbutton>img{
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+.firstheading{
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 50px;
+    color: rgb(34, 16, 0);
+    font-family: Lexend Peta Regular;
+}
+
+.boxes{
+    display: flex;
+}
+
+.box1{
+    margin-top: 3%;
+    margin-left: 15%;
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #ffffff;
+}
+
+
+.box2{
+    margin-top: 3%;
+    margin-left: 18%;
+    width: 350px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: #ffffff;
+}
+
+.ri--lock-2-line {
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    --svg: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='M6 8V7a6 6 0 1 1 12 0v1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1zm13 2H5v10h14zm-8 5.732A2 2 0 0 1 12 12a2 2 0 0 1 1 3.732V18h-2zM8 8h8V7a4 4 0 0 0-8 0z'/%3E%3C/svg%3E");
+    background-color: currentColor;
+    -webkit-mask-image: var(--svg);
+    mask-image: var(--svg);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-size: 100% 100%;
+    mask-size: 100% 100%;
+  }
+
+.secondhead{
+    margin-top: 2%;
+    margin-left: 15%;
+    font-size: 30px;
+    color: rgb(34, 16, 0);
+    font-family: Lexend Peta Regular;
+}
+
+.thirdhead{
+    margin-top: 2%;
+    margin-left: 20%;
+    font-size: 30px;
+    color: rgb(34, 16, 0);
+    font-family: Lexend Peta Regular;
+}
+
+.course-heads{
+    display: flex;
+}
+
+.learn-1{
+    width: 160px;
+    height: 40px;
+    margin-left: 22%;
+    margin-top: 1%;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: #FFFDD0;
+    border: none;
+}
+
+.learn-1>img{
+    vertical-align: middle;
+    border-radius: 50px;
+}
+
+.arrow-next{
+    margin-left: 60px;
+    height: 110px;
+    margin-top: 145px;
+    border: none;
+    background-color: #FFFDD0;
+    cursor: pointer;
+}

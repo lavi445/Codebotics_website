@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+.firstheading{
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 50px;
+    color: rgb(34, 16, 0);
+    font-family: Lexend Peta Regular;
+}
+
+.cpuv{
+    height: 500px;
+    width: 700px;
+    margin-left: 23%;
+    margin-top: 3%;
+    border: 5px;
+    border-color: black;
+}
+
+.previous{
+    margin-top: 3%;
+    margin-left: 8%;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #FFFDD0;
+    border: none;
+}
+
+.previous>img{
+    border-radius: 50px;
+    vertical-align: middle;
+}

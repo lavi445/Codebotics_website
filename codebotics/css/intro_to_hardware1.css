@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.backbutton{
+    margin-top: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    background-color: #FFFDD0;
+    border: none;
+}
+
+.backbutton>img{
+    border-radius: 50px;
+    vertical-align: middle;
+}
+
+.firstheading{
+    padding-top: 50px;
+    padding-left: 100px;
+    font-size: 50px;
+    color: rgb(34, 16, 0);
+    font-family: Lexend Peta Regular;
+}
+
+.navbar{
+    display: flex;
+}
+
+.cpuv{
+    height: 500px;
+    width: 700px;
+    margin-left: 23%;
+    margin-top: 3%;
+    border: 5px;
+    border-color: black;
+}
+
+.next{
+    margin-top: 3%;
+    margin-left: 73%;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #FFFDD0;
+    border: none;
+}
+
+.next>img{
+    border-radius: 50px;
+    vertical-align: middle;
+}
