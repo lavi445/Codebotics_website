@@ -1,0 +1,15 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.phdir{
+    display:flex;
+}
+.photo1{
+    width: 20px;
+    height:50px;
+}
+.img1{
+    object-fit: contain;
+}

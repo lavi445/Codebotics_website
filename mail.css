@@ -1,0 +1,82 @@
+*{
+    padding:0px;
+    margin:0px;box-sizing: border-box;
+}
+.contactcontainer{
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.contact-left{
+    display:flex;
+    flex-direction: column;
+    align-items: start;
+    gap:20px;
+}
+.contactlefttitle h2{
+    font-weight:600;
+    color:black;
+    font-size:40px;
+    margin-bottom:5px;
+}
+.pic1{
+    height:500px;
+    width:600px;
+}
+.contactlefttitle hr{
+    border:none;
+    width:120px;
+    height:5px;
+    background-color: black;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+.contactinput{
+    width:400px;
+    height:50px;
+    border:none;
+    outline:none;
+    padding-left:25px;
+    font-weight:500;
+    color:rgba(59,30,8,1);
+    background-color: rgb(236, 234, 234);
+    border-radius:50px;
+}
+.contact-left textarea{
+    height:100px;
+    padding-top:15px;
+    border-radius:20px;
+}
+.contactinput:focus{
+    border: 2px solid peru;
+}
+.contactinput::placeholder{
+    color:rgb(124, 119, 119);
+}
+.lab{
+    font-weight: 500;
+    font-size:15px;
+}
+.contact-left button{
+    display:flex;
+    align-items: center;
+    padding:15px 30px;
+    font-size:16px;
+    font-weight:bold;
+    color:white;
+    gap:10px;
+    border:none;
+    border-radius:50px;
+    background-color: rgba(59,30,8,1);
+    cursor: pointer;
+}
+.arrow{
+    font-size: 30px;
+}
+.back{
+    background-color: rgba(58,30,8,1);
+    display: inline-block;
+    border-radius: 100px;
+    margin:1px;
+}

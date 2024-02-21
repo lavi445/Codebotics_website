@@ -1,0 +1,34 @@
+/* Dark mode styles */body.dark-mode {
+    background-color: black !important;
+    color: #ffffff !important;
+}
+
+.dark-mode .div1 .back {
+    background-color: rgba(58,30,8,1) !important; /* Adjust background color for the back button */
+}
+
+.dark-mode .sett {
+    color: #ffffff !important; /* Adjust text color for the 'SETTINGS' heading */
+}
+
+.dark-mode .langicon {
+    background-color: rgba(58,30,8,1) !important; /* Adjust background color for the language icon */
+}
+
+.dark-mode .lab {
+    color: #ffffff !important; /* Adjust text color for the 'Change Language' label */
+}
+
+.dark-mode .toggle {
+    background-color: #333 !important; /* Adjust background color for the toggle button */
+    border-color: #fff !important; /* Adjust border color for the toggle button */
+}
+
+.dark-mode .toggle-c {
+    background-color: #fff !important; /* Adjust background color for the toggle circle */
+    border-color: #000 !important; /* Adjust border color for the toggle circle */
+}
+.dark-mode .changelan{
+    color:white;
+}
+/* Add more specific dark mode styles as needed */

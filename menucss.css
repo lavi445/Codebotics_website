@@ -1,0 +1,123 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.menuitems{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:80px;
+}
+.item1{
+    background-color:rgba(59, 30, 8, 1);
+    padding:30px;
+    border-radius: 100px;
+    position:relative;
+}
+.icon1{
+    font-size: 130px;
+}
+.item2{
+    background-color:rgba(59, 30, 8, 1);
+    padding:30px;
+    border-radius:100px;
+    position: relative;
+}
+.item3{
+    background-color:rgba(59, 30, 8, 1);
+    padding:30px;
+    border-radius:100px;
+    position: relative;
+}
+.item4{
+    background-color:rgba(59, 30, 8, 1);
+    padding:30px;
+    border-radius:100px;
+    position: relative;
+}
+.setting{
+    position: absolute;
+    justify-content: center;
+    padding-top:30px;
+    left:8%;
+    top:90%;
+}
+.item1:hover{
+    box-shadow: 0 0 0 4px #fff, 0 0 0 8px rgba(59, 30, 8, 1);
+}
+.item2:hover{
+    box-shadow: 0 0 0 4px #fff, 0 0 0 8px rgba(59, 30, 8, 1);
+}
+.item3:hover{
+    box-shadow: 0 0 0 4px #fff, 0 0 0 8px rgba(59, 30, 8, 1);
+}
+.item4:hover{
+    box-shadow: 0 0 0 4px #fff, 0 0 0 8px rgba(59, 30, 8, 1);
+}
+.set{
+    text-align: center;
+    font-size:20px;
+    letter-spacing: 6px;
+}
+.home{
+    position: absolute;
+    justify-content: center;
+    padding-top:30px;
+    left:20%;
+    top:90%;
+}
+.course{
+    position: absolute;
+    justify-content: center;
+    padding-top:30px;
+    left:9%;
+    top:90%;
+}
+.setting{
+    position: absolute;
+    justify-content: center;
+    padding-top:30px;
+    left:7%;
+    top:90%;
+}
+.customer{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding:5x;
+}
+.phone{
+    padding:6px;
+    margin:20px;
+    background-color: white;
+    border-radius: 100px;
+    border:2px solid black;
+}
+.mail{
+    padding:6px;
+    margin:20px;
+    background-color: white;
+    border-radius: 100px;
+    border:2px solid black;
+    cursor: pointer;
+}
+.linkedin{
+    padding:6px;
+    margin:20px;
+    background-color: white;
+    border-radius: 100px;
+    border:2px solid black;
+}
+.facebook{
+    padding:6px;
+    margin:20px;
+    background-color: white;
+    border-radius: 100px;
+    border:2px solid black;
+}
+.contact{
+    text-align: center;
+    padding-top:10px;
+    margin-top:20px;
+}

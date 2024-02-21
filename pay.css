@@ -1,0 +1,64 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    margin-left:80px;
+    margin-right:80px;
+}
+.pn{
+    text-align: center;
+}
+.plandes{
+    background-color: white;
+    display: inline-block;
+    width:250px;
+    height:330px;
+    padding:20px;
+    border:2px solid black;
+
+}
+.p1{
+    background-color: rgba(59,30,8,1);
+    display:inline-block;
+    padding:25px;
+    border-radius: 100%;
+    color:white;
+    position: absolute;
+    left:15%;
+    top:10%
+}
+.p2{
+    background-color: #3b1e08;
+    display:inline-block;
+    padding:25px;
+    border-radius: 100%;
+    color:white;
+    position: absolute;
+    left:48%;
+    top:10%
+}
+.p3{
+    background-color: rgba(59,30,8,1);
+    display:inline-block;
+    padding:25px;
+    border-radius: 100%;
+    color:white;
+    position: absolute;
+    left:82%;
+    top:10%
+}
+.buy{
+    background-color: rgba(59,30,8,1);
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 50px;
+    color:white;
+    position: relative;
+    top:-50px;
+    left:30%;
+}

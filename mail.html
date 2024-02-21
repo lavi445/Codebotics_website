@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE edge">
+    <meta name="viewport" content="width-device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="homecss.css">
+    <link rel="stylesheet" href="mail.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <title>CODEBOTICS</title>
+</head>
+<body>
+    <div class="back">
+        <a href="menu.html">
+            <iconify-icon icon="material-symbols:arrow-back" width="50" style="color:white"></iconify-icon></a></div>
+            <div class="brandname">
+                <h3 class="codebotics">CODEBOTICS</h3>
+            </div>
+            <div class="contactcontainer">
+        <form class="contact-left" name="submit-to-google-sheet">
+            <div class="contactlefttitle">
+                <h2>Get in Touch</h2>
+                <hr>
+            </div>
+            <label class="lab">Full Name</label>
+            <input type="text" name="Name" placeholder="Your Name" class="contactinput" required>
+            <label class="lab">E-mail Address</label>
+            <input type="email" name="Email" placeholder="Your Email" class="contactinput" required>
+            <label class="lab">Your Message</label>
+            <textarea name="Message" placeholder="Your Message" class="contactinput" required></textarea>
+            <button type="submkit">Sumbit<iconify-icon icon="solar:arrow-right-linear" class="arrow"></iconify-icon></button>
+            <br><span id="success"></span>
+        </form>
+        <div class="contact-right">
+            <img src="./codebotics_web_img/getintouch.png" alt="" class="pic1">
+        </div>
+    </div>
+</body>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycby3HzsT4k6c2VmdC3bYX9y_RQI2BCYnnU30Lb5wf15OTYi2H8nOZOveHZoCxxD0Oejj/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const success = document.getElementById('success');
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            success.innerHTML="Successfully Submitted";
+
+            setTimeout(function(){
+                success.innerHTML="";
+            },5000)
+            form.reset();
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</html>

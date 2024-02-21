@@ -1,0 +1,98 @@
+body {
+    background-color: #FFFDD0;
+    font-family: 'Lexend Peta Regular', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFFDD0;
+}
+
+.backbutton {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.firstheading {
+    font-size: 24px;
+    margin: 0;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.box1, .box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 300px;
+    margin: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.box1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+}
+
+.arrow-next {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.course-heads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.secondhead {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.thirdhead {
+    font-size: 24px;
+    margin: 0;
+    text-align: center;
+}
+
+.learn-1 {
+    background-color: #000;
+    color: #FFFDD0;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 20px;
+}
